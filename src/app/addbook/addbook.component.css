@@ -1,0 +1,8 @@
+.bg1-image {
+	background-image : url("https://www.incimages.com/uploaded_files/image/1920x1080/shutterstock_549881917_361412.jpg");
+	background-repeat : no-repeat;
+      background-position: center;
+    background-size: cover;
+    height: 850px;
+    
+ }

@@ -1,0 +1,28 @@
+
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th>BookId</th>
+        <th>Title</th>
+        <th>Author</th>
+          <th>Description</th>
+          <th>ISBN</th>
+          <th>Price</th>
+          <th>PublishDate</th>
+          <th>Bookcategory</th>
+      </tr>
+    </thead>
+      <tbody>
+      <tr>
+        <td>{{book.bookId}}</td>
+        <td>{{book.title}}</td>
+        <td>{{book.author}}</td>
+        <td>{{book.description}}</td>
+        <td>{{book.isbn}}</td>
+        <td>{{book.price}}</td>
+        <td>{{book.publishDate}}</td>
+        <td>{{book.bookcategory}}</td>
+      </tr>
+     </tbody>
+  </table>
+  <button type="button" class="btn btn-primary" (click)="gotoList()">Back</button>
